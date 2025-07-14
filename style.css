@@ -178,7 +178,7 @@
 
         /* ===== Hero Banner ===== */
         .hero {
-            background: url("cap.png") center/cover no-repeat;
+            background: url("assets/images/cap.png") center/cover no-repeat;
             height: 100vh;
             display: flex;
             align-items: center;
