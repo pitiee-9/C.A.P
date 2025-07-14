@@ -1,178 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C.A.P – Cybersecurity Advancement Program</title>
-    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>C.A.P – About</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/about/about.css" />
 </head>
 <body>
-    <div class="scanline"></div>
-    <div class="binary-fall" id="binaryContainer"></div>
+  <div class="scanline"></div>
+  <canvas id="matrix"></canvas>
 
-    <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <a href="index.html" class="logo">
-                <div class="logo-icon">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <div class="logo-text">C.A.P</div>
-            </a>
-            
-            <nav>
-                <ul class="nav-links">
-                   <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                </ul>
-            </nav>
-            
-            <button class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="logo-text">C.A.P</div>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero Banner Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Cybersecurity Advancement Program</h1>
+        <p>
+          A youth-led program empowering Rwanda’s future with cybersecurity skills, digital ethics, and career-ready tech training.
+        </p>
+        <a href="join.html" class="cta-button">
+          <i class="fas fa-user-graduate"></i> Join Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Programs Section -->
+  <section class="about-programs-section">
+    <div class="container about-programs-container">
+      <!-- Content Boxes -->
+      <div class="info-box visible">
+        <h2>About Cybersecurity Advancement Program (C.A.P.)</h2>
+        <p>
+          The <strong>Cybersecurity Advancement Program (C.A.P.)</strong> is a bold, youth-led initiative aligned with Rwanda’s National Cybersecurity Strategy (2024–2029). More than a training program, C.A.P. is a movement uniting young Rwandans, educational institutions, industry leaders, and government to protect and advance Rwanda’s digital future with integrity, honor, and innovation.
+        </p>
+        <p>
+          As Rwanda accelerates its digital transformation, cybersecurity becomes critical to national safety, economic growth, and sovereignty. C.A.P. bridges the “Civilization Gap” by equipping a new generation of ethical, skilled cybersecurity professionals ready to defend, innovate, and lead in Africa’s digital landscape.
+        </p>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Vision & Mission</h2>
+        <p><strong>Vision:</strong><br> To establish Rwanda as a regional powerhouse in cybersecurity by empowering youth to become ethical, skilled, and impactful digital defenders.</p>
+        <p><strong>Mission:</strong><br> To advance cybersecurity education, foster innovation and leadership, promote digital ethics, and build a resilient, secure digital ecosystem through youth engagement.</p>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Core Values</h2>
+        <ul>
+          <li><strong>Integrity</strong>: Acting with honesty and strong moral principles</li>
+          <li><strong>Honor</strong>: Upholding respect and dignity in all endeavors</li>
+          <li><strong>Responsibility</strong>: Committing to protect and serve the digital community</li>
+          <li><strong>Innovation</strong>: Driving creative solutions for evolving cyber challenges</li>
+          <li><strong>Accountability</strong>: Ensuring transparency and ethical conduct</li>
+          <li><strong>National Service</strong>: Serving Rwanda’s digital security and prosperity</li>
+        </ul>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Program Pillars</h2>
+        <p><strong>Education & Skills Development</strong><br>
+          Hands-on training in ethical hacking, digital forensics, cyber law, and leadership, coupled with industry-recognized certifications.
+        </p>
+        <p><strong>Innovation & Leadership</strong><br>
+          Cyber hackathons, solution labs, and leadership bootcamps that inspire creativity and nurture future tech leaders.
+        </p>
+        <p><strong>Advocacy & Awareness</strong><br>
+          Campaigns and youth ambassador programs that raise public cyber awareness and promote responsible digital behavior.
+        </p>
+        <p><strong>Career & Entrepreneurship</strong><br>
+          Internship placements, startup incubation, and a thriving alumni network supporting career growth and innovation.
+        </p>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Integrity & Accountability Framework</h2>
+        <p>
+          Participants earn a unique Digital Ethics ID linking their training, certifications, and commitment to ethical conduct. Graduates undergo annual integrity check-ins, receive peer evaluations, and are supported by a strict violation protocol ensuring only responsible professionals remain in Rwanda’s Cyber Talent Registry—a trusted national resource.
+        </p>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Why C.A.P. Builds Defenders, Not Hackers</h2>
+        <p>
+          C.A.P. teaches cybersecurity as a shield, not a weapon. Our students learn to prevent cyberattacks ethically and legally, taking a solemn Cyber Ethics Oath. Mentored by experienced professionals, they become analysts, digital forensic experts, and ethical hackers committed to defending Rwanda’s digital space. Avoiding cybersecurity education increases vulnerability—C.A.P. offers a proactive, principled path forward.
+        </p>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Our Goals (2025–2027)</h2>
+        <ul>
+          <li>Train 1,000+ youth in cybersecurity skills</li>
+          <li>Achieve 70% job or entrepreneurship placement for graduates</li>
+          <li>Support 30+ institutions with alumni-led cybersecurity services</li>
+          <li>Influence 10+ cybersecurity policies through youth advocacy</li>
+          <li>Establish 50+ active cybersecurity clubs nationwide</li>
+        </ul>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Sustainability & Growth</h2>
+        <p>
+          C.A.P. sustains impact through paid advanced certifications, alumni-led service teams, partnerships with tech companies and donors, and a membership model that fosters ongoing community support.
+        </p>
+      </div>
+
+      <div class="info-box visible">
+        <h2>Join the Movement</h2>
+        <p>
+          Rwanda’s digital future depends on strong defenders. C.A.P. calls on:
+        </p>
+        <ul>
+          <li><strong>Government:</strong> Integrate our graduates and co-create cybersecurity standards</li>
+          <li><strong>Private Sector:</strong> Hire and empower certified cybersecurity professionals</li>
+          <li><strong>Schools & Communities:</strong> Lead cybersecurity awareness and education</li>
+          <li><strong>Investors & Donors:</strong> Invest in Africa’s ethical and innovative cyber future</li>
+        </ul>
+        <p>
+          <em>C.A.P. — Where Integrity Meets Honor<br />Empowering Rwanda’s youth to secure tomorrow’s digital civilization.</em>
+        </p>
+      </div>
+
+      <!-- Images Section -->
+      <div class="info-box visible image-gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+          <img src="assets/images/sample1.jpg" alt="Sample Image 1" />
+          <img src="assets/images/sample2.jpg" alt="Sample Image 2" />
         </div>
-    </header>
+      </div>
+    </div>
+  </section>
 
-    <!-- Hero Banner Section -->
-    <section class="hero">
-        <div class="hero-overlay">
-            <div class="hero-content">
-                <h1>Cybersecurity Advancement Program</h1>
-                <p>
-                    A youth-led program empowering Rwanda’s future with cybersecurity skills, digital ethics, and career-ready tech training.
-                </p>
-                <a href="join.html" class="cta-button">
-                    <i class="fas fa-user-graduate"></i> Join Now
-                </a>
-            </div>
-        </div>
-    </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-box">
+        <h3>C.A.P</h3>
+        <p>Empowering Rwanda’s youth with cybersecurity skills and digital leadership.</p>
+      </div>
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:cybersecadvancement@gmail.com">cybersecadvancement@gmail.com</a></p>
+        <p>Phone: <a href="tel:+250790981098">+250 790 981 098</a></p>
+        <p>Kigali, Rwanda</p>
+      </div>
+      <div class="footer-box">
+        <h3>Follow Us</h3>
+        <p><a href="https://www.instagram.com/c.a.p_rw" target="_blank">Instagram</a></p>
+        <p><a href="https://www.youtube.com/@C.A.P_rw" target="_blank">YouTube</a></p>
+        <p><a href="https://x.com/cybersecur56045" target="_blank">X</a></p>
+        <p><a href="https://github.com/c.a.p_rw" target="_blank">GitHub</a></p>
+        <p><a href="https://wa.me/250790981098" target="_blank">WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 C.A.P – Cybersecurity Advancement Program. All rights reserved.</p>
+    </div>
+  </footer>
 
-    <!-- About Programs Section -->
-    <section class="about-programs-section">
-        <div class="container">
-            <div class="about-programs-container">
-                <!-- About C.A.P box -->
-                <div class="info-box floating">
-                    <h2>About C.A.P</h2>
-                    <p>
-                        C.A.P is a youth-led initiative empowering Rwandan students with cybersecurity skills, digital ethics, and tech training to shape a safer digital future.
-                    </p>
-                    <a href="about.html" class="read-more-button">
-                        Read More
-                    </a>
-                </div>
-
-                <!-- What We Offer box -->
-                <div class="info-box floating" style="animation-delay: 0.5s;">
-                    <h2>What We Offer</h2>
-                    <p>
-                        We offer hands-on cybersecurity training, mentorship from professionals, digital literacy workshops, and ethical hacking challenges to prepare students for real-world careers.
-                    </p>
-                    <a href="about.html" class="read-more-button">
-                        About C.A.P
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Statistics Section -->
-    <section class="stats-section">
-        <div class="container">
-            <h2 class="section-title">Our 2027 Targets</h2>
-            <div class="stats-container">
-                <div class="stat-box">
-                    <span class="stat-number" data-target="1000">0</span>
-                    <p class="stat-label">Trained Youth</p>
-                </div>
-
-                <div class="stat-box">
-                    <span class="stat-number" data-target="70">0</span>
-                    <p class="stat-label">Placed in Jobs (%)</p>
-                </div>
-
-                <div class="stat-box">
-                    <span class="stat-number" data-target="30">0</span>
-                    <p class="stat-label">Institutions Served</p>
-                </div>
-
-                <div class="stat-box">
-                    <span class="stat-number" data-target="50">0</span>
-                    <p class="stat-label">School Clubs Formed</p>
-                </div>
-
-                <div class="stat-box">
-                    <span class="stat-number" data-target="10">0</span>
-                    <p class="stat-label">Policy Ideas from Youth</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <!-- Box 1: About C.A.P -->
-            <div class="footer-box">
-                <h3>C.A.P</h3>
-                <p>Empowering Rwanda’s youth with cybersecurity skills and digital leadership.</p>
-            </div>
-
-            <!-- Box 2: Quick Links -->
-            <div class="footer-box">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                </ul>
-            </div>
-
-            <!-- Box 3: Contact Info -->
-            <div class="footer-box">
-                <h3>Contact</h3>
-                <p>Email: <a href="mailto:cybersecadvancement@gmail.com">cybersecadvancement@gmail.com</a></p>
-                <p>Phone: <a href="tel:+250790981098">+250 790 981 098</a></p>
-                <p>Kigali, Rwanda</p>
-            </div>
-
-            <!-- Box 4: Social Media -->
-            <div class="footer-box">
-                <h3>Follow Us</h3>
-                <p>
-                    <a href="https://www.instagram.com/c.a.p_rw" target="_blank">Instagram</a>
-                </p>
-                <p>
-                    <a href="https://www.youtube.com/@C.A.P_rw" target="_blank">Youtube</a>
-                </p>
-                <p>
-                    <a href="https://x.com/cybersecur56045" target="_blank">X</a>
-                </p>
-                <p>
-                    <a href="https://github.com/c.a.p_rw" target="_blank">GitHub</a>
-                </p>
-                <p>
-                    <a href="https://wa.me/250790981098" target="_blank">WhatsApp</a>
-                </p>
-            </div>
-        </div>
-
-        <!-- Bottom Copyright -->
-        <div class="footer-bottom">
-            <p>© 2025 C.A.P – Cybersecurity Advancement Program. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <script src="assets/about/about.js"></script>
 </body>
 </html>
