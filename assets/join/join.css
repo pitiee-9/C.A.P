@@ -57,7 +57,7 @@
 
         .binary-digit {
             position: absolute;
-            color: rgba(0, 255, 65, 0.15);
+            color: rgb(9, 255, 0);
             font-size: 26px;
             font-family: monospace;
             animation: fall linear forwards;
