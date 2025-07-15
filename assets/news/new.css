@@ -1,4 +1,12 @@
-    /* Base styles from about.css with additions */
+/* Base styles from about.css with additions */
+/* Apply consistent font to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
     :root {
       --dark-bg: #0a0e14;
       --darker-bg: #06090d;
