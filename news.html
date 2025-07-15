@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>C.A.P – News</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/news/new.css">
+</head>
+<body>
+  <div class="scanline"></div>
+  <canvas id="matrix"></canvas>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="logo-text">C.A.P</div>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html" class="active">News</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero Banner Section -->
+  <section class="news-hero">
+    <div class="news-hero-overlay">
+      <div class="news-hero-content">
+        <h1>Cyber Pulse: Latest News & Updates</h1>
+        <p>
+          Stay ahead of the curve with the latest cybersecurity developments, program updates, and industry insights from Rwanda's leading youth initiative.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container news-content">
+    <!-- Main News Section -->
+    <div class="main-news">
+      <!-- News Grid -->
+      <div class="news-grid">
+        <!-- News Card 1 -->
+        <article class="news-card">
+          <div class="card-image">
+            <img src="assets/images/peo.jpeg" alt="Ethical Hacking Workshop">
+          </div>
+          <div class="card-content">
+            <span class="card-category">Training</span>
+            <h3 class="card-title">C.A.P Launches Advanced Ethical Hacking Workshop Series</h3>
+            <p class="card-excerpt">Our new workshop series will train 200 youth in advanced penetration testing techniques to strengthen Rwanda's cyber defenses.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-calendar"></i> July 18, 2025</span>
+              <span><i class="fas fa-clock"></i> 5 min read</span>
+            </div>
+          </div>
+        </article>
+        
+        <!-- News Card 2 -->
+        <article class="news-card">
+          <div class="card-image">
+            <img src="assets/images/cyberhack.jpeg" alt="National Competition">
+          </div>
+          <div class="card-content">
+            <span class="card-category">Competition</span>
+            <h3 class="card-title">Rwanda National Cybersecurity Championship 2025 Announced</h3>
+            <p class="card-excerpt">C.A.P in partnership with SVA community to host the largest cybersecurity competitions and hackathons in East Africa with $20,000 in prizes.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-calendar"></i> July 12, 2025</span>
+              <span><i class="fas fa-clock"></i> 4 min read</span>
+            </div>
+          </div>
+        </article>
+        
+        <!-- News Card 3 -->
+        <article class="news-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Industry Partnership">
+          </div>
+          <div class="card-content">
+            <span class="card-category">Partnership</span>
+            <h3 class="card-title">C.A.P Partners with Global Tech Giants for Cybersecurity Training</h3>
+            <p class="card-excerpt">S.V.A, Hackclub, and MINICT join forces with C.A.P to provide cutting-edge cybersecurity certifications for Rwandan youth.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-calendar"></i> July 5, 2025</span>
+              <span><i class="fas fa-clock"></i> 6 min read</span>
+            </div>
+          </div>
+        </article>
+        
+        <!-- News Card 4 -->
+        <article class="news-card">
+          <div class="card-image">
+            <img src="assets/images/ai.jpeg" alt="Research Publication">
+          </div>
+          <div class="card-content">
+            <span class="card-category">Research</span>
+            <h3 class="card-title">C.A.P Research Team Publishes Groundbreaking AI Threat Analysis</h3>
+            <p class="card-excerpt">Our research division releases comprehensive report on emerging AI-powered cyber threats in East Africa.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-calendar"></i> June 28, 2025</span>
+              <span><i class="fas fa-clock"></i> 8 min read</span>
+            </div>
+          </div>
+        </article>
+        
+        <!-- News Card 5 -->
+        <article class="news-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Community Outreach">
+          </div>
+          <div class="card-content">
+            <span class="card-category">Community</span>
+            <h3 class="card-title">Cyber Safety Awareness Campaign Reaches 50,000 Rwandans</h3>
+            <p class="card-excerpt">C.A.P youth ambassadors complete nationwide tour teaching digital safety in schools and communities.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-calendar"></i> June 20, 2025</span>
+              <span><i class="fas fa-clock"></i> 4 min read</span>
+            </div>
+          </div>
+        </article>
+        
+        <!-- News Card 6 -->
+        <article class="news-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Alumni Success">
+          </div>
+          <div class="card-content">
+            <span class="card-category">Alumni</span>
+            <h3 class="card-title">C.A.P Graduates Launch Rwanda's First Cybersecurity Startup Incubator</h3>
+            <p class="card-excerpt">Program alumni establish 'Cyber Innovation Hub' to support cybersecurity entrepreneurship in Kigali.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-calendar"></i> June 15, 2025</span>
+              <span><i class="fas fa-clock"></i> 5 min read</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <!-- Updates Section -->
+      <div class="updates-section">
+        <h2 class="section-title">Program Updates & Announcements</h2>
+        
+        <div class="update-list">
+          <!-- Update 1 -->
+          <div class="update-item">
+            <div class="update-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="update-content">
+              <h3>New Training Schedule Released</h3>
+              <p>Our Q3 training calendar is now available. Register now for Ethical Hacking, Digital Forensics, and Cloud Security courses starting August 1st.</p>
+            </div>
+          </div>
+          
+          <!-- Update 2 -->
+          <div class="update-item">
+            <div class="update-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="update-content">
+              <h3>Certification Exam Dates Announced</h3>
+              <p>CEH and CompTIA Security+ exam dates for August and September have been scheduled. Registration opens July 25th.</p>
+            </div>
+          </div>
+          
+          <!-- Update 3 -->
+          <div class="update-item">
+            <div class="update-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="update-content">
+              <h3>Graduation Ceremony - July 30th</h3>
+              <p>Join us in celebrating our 2025 Cohort 1 graduates at the Kigali Convention Center. Keynote by Minister of ICT.</p>
+            </div>
+          </div>
+          
+          <!-- Update 4 -->
+          <div class="update-item">
+            <div class="update-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="update-content">
+              <h3>New Virtual Lab Platform Launched</h3>
+              <p>Access our new cloud-based cybersecurity lab environment with 200+ realistic scenarios for hands-on practice.</p>
+            </div>
+          </div>
+          
+          <!-- Update 5 -->
+          <div class="update-item">
+            <div class="update-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="update-content">
+              <h3>Resource Library Expanded</h3>
+              <p>We've added 50+ new cybersecurity resources including eBooks, research papers, and video tutorials to our learning portal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- More News Grid -->
+      <div class="news-grid">
+        <!-- Additional news cards would go here -->
+      </div>
+    </div>
+    
+    <!-- Sidebar -->
+    <aside class="news-sidebar">
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Sponsored Content</h3>
+        <div class="ad-container">
+          <div class="ad-scroll">
+            <div class="ad-item">
+              <h3 class="ad-title">CyberGuard Pro</h3>
+              <p class="ad-content">Advanced threat protection for enterprise networks. Special discount for C.A.P members!</p>
+            </div>
+            <div class="ad-item">
+              <h3 class="ad-title">Fab young maker robotics program</h3>
+              <p class="ad-content">Join Rwanda's robotics program Early bird registration open.</p>
+            </div>
+            <div class="ad-item">
+              <h3 class="ad-title">Ethical Hacking Bootcamp</h3>
+              <p class="ad-content">Intensive 2-week program with industry certifications. Scholarships available.</p>
+            </div>
+            <div class="ad-item">
+              <h3 class="ad-title">Hack club</h3>
+              <p class="ad-content">Join non profit organisation(Hackclub) branches in Rwanda.</p>
+            </div>
+            <div class="ad-item">
+              <h3 class="ad-title">Flight club</h3>
+              <p class="ad-content">Connect with young people with great passion in aviation!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Categories Widget -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Categories</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Training Updates</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Events & Competitions</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Industry News</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Research & Insights</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Alumni Success</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Policy & Advocacy</a></li>
+        </ul>
+      </div>
+      
+      <!-- Popular Posts -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Popular Posts</h3>
+        <ul>
+          <li>
+            <a href="#">
+              <h4>How to Start a Cybersecurity Career in Rwanda</h4>
+              <span class="post-date">June 10, 2025</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>Top 5 Cybersecurity Threats Facing African Businesses</h4>
+              <span class="post-date">May 28, 2025</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>Interview with Rwanda's First Female Ethical Hacker</h4>
+              <span class="post-date">May 15, 2025</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>Free Resources for Learning Cybersecurity</h4>
+              <span class="post-date">April 30, 2025</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Newsletter -->
+      <div class="sidebar-widget">
+        <h3 class="widget-title">Cyber Alert Newsletter</h3>
+        <p>Get weekly updates on cybersecurity news, threats, and career opportunities.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" style="" required>
+          <button type="submit" class="cta-button">Subscribe</button>
+        </form>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-box">
+        <h3>C.A.P</h3>
+        <p>Empowering Rwanda’s youth with cybersecurity skills and digital leadership.</p>
+      </div>
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html" class="active">News</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:cybersecadvancement@gmail.com">cybersecadvancement@gmail.com</a></p>
+        <p>Phone: <a href="tel:+250790981098">+250 790 981 098</a></p>
+        <p>Kigali, Rwanda</p>
+      </div>
+      <div class="footer-box">
+        <h3>Follow Us</h3>
+        <p><a href="https://www.instagram.com/c.a.p_rw" target="_blank">Instagram</a></p>
+        <p><a href="https://www.youtube.com/@C.A.P_rw" target="_blank">YouTube</a></p>
+        <p><a href="https://x.com/cybersecur56045" target="_blank">X</a></p>
+        <p><a href="https://github.com/c.a.p_rw" target="_blank">GitHub</a></p>
+        <p><a href="https://wa.me/250790981098" target="_blank">WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 C.A.P – Cybersecurity Advancement Program. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/news/news.js"></script>
+</body>
+</html>
